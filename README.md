@@ -8,8 +8,13 @@ Link para acesso:
 
 ## 📋 Pré-requisitos
 - Internet
+
+
+&nbsp;
 - Computador ou Notebook
 
+
+&nbsp;
 ## ⌨️ E testes de estilo de codificação
 
 ## 📦 Desenvolvimento

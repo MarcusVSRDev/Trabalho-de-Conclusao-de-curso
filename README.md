@@ -1,12 +1,12 @@
 Simulador de gestor de tecnologia
 Trabalho de conclusão de curso, no Instituto Federal de Brasília (Campus Brasília) no curso Tecnólogo em Sistemas para Internet.
 
-## 🚀 Começando
+### 🚀 Começando
 O jogo será Web, então ele terá livre acesso na plataforma Guejibo.
 
 Link para acesso:
 
-### 📋 Pré-requisitos
+## 📋 Pré-requisitos
 - Internet
 - Computador ou Notebook
 
@@ -14,14 +14,14 @@ Link para acesso:
 
 ## 📦 Desenvolvimento
 
-### 🛠️ Construído com
+## 🛠️ Construído com
 
 PhaseJS - O framework web usado
 Javascript - Linguagem de programação usada
 HTML - Linguagem basica para codificação dos elementos do site
 CSS - Utilizado para fazer a estilização do site
 
-### 📌 Versão
+## 📌 Versão
 
 (23/05/2022) - 0.0.1v : Criação das tags basicas que serão utilizadas no HTML e começo da estilização.
 

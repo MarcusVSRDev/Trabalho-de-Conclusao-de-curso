@@ -33,6 +33,7 @@ CSS - Utilizado para fazer a estilização do site
 ## 📌 Versão
 
 (10/04/2022) - 0.0.1v : Criação das tags basicas que serão utilizadas no HTML e começo da estilização.
+(15/04/2022) - 0.0.2v : Adicionando efeitos CSS e adicionando tags HTML 
 
 ## ✒️ Autores
 

@@ -1,0 +1,45 @@
+html {}
+
+body {
+    background-image: url("img/Office.jpg");
+    background-size: 1920px 1080px;
+}
+
+img {
+    width: 25vw;
+    height: 40vh;
+}
+
+.boards {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 32px;
+}
+
+.board {
+    background-color: #d0ced4;
+    border: 1px solid #FD951F11;
+    border-radius: 4px;
+    margin: 0 16px;
+}
+
+.board h3 {
+    color: #000000cc;
+    padding: 16px;
+    margin: 0;
+}
+
+.dropzone {
+    padding: 16px;
+    min-width: 3vw;
+    min-height: 5vh;
+}
+
+.card {
+    display: flex;
+    background-color: #babad3;
+    padding: 16px;
+    box-shadow: 0 1px 2px 2px;
+    height: 60vh;
+    border-radius: 4px;
+}

@@ -1,26 +1,30 @@
-Simulador de gestor de tecnologia 
+Simulador de gestor de tecnologia
 
 Trabalho de conclusão de curso, no Instituto Federal de Brasília (Campus Brasília) no curso Tecnólogo em Sistemas para Internet.
 
 ### 🚀 Começando
+
 O jogo será Web, então ele terá livre acesso na plataforma Guejibo.
 &nbsp;
 
 Link para acesso:
 
 ## 📋 Pré-requisitos
-- Internet
-&nbsp;
-- Computador ou Notebook
-nbsp;
-## ⌨️ E testes de estilo de codificação
-&nbsp;
-## 📦 Desenvolvimento
-&nbsp;
-## 🛠️ Construído com
 
-PhaseJS - O framework web usado
+- Internet
+  &nbsp;
+- Computador ou Notebook
+  nbsp;
+
+## ⌨️ E testes de estilo de codificação
+
 &nbsp;
+
+## 📦 Desenvolvimento
+
+&nbsp;
+
+## 🛠️ Construído com
 
 Javascript - Linguagem de programação usada
 &nbsp;
@@ -32,8 +36,13 @@ CSS - Utilizado para fazer a estilização do site
 
 ## 📌 Versão
 
-(10/04/2022) - 0.0.1v : Criação das tags basicas que serão utilizadas no HTML e começo da estilização.
-(15/04/2022) - 0.0.2v : Adicionando efeitos CSS e adicionando tags HTML 
+(10/04/2022) - 0.0.1v : Criação das tags basicas que serão utilizadas no HTML e começo da estilização.&nbsp;
+
+(15/04/2022) - 0.0.2v : Adicionando efeitos CSS e adicionando tags HTML&nbsp;
+
+(23/04/2022) - 0.0.3v: Iniciando as funçoes drag and drop utilizando Javascript&nbsp;
+
+(24/05/2022) - 0.0.3.1v: Preparação para criação dinâmicas das cartas e criando funções para textos&nbsp;
 
 ## ✒️ Autores
 

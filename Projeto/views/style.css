@@ -1,6 +1,6 @@
 body {
     background-image: url("img/Office.jpg");
-    background-size: 1920px 1080px;
+    background-size: 100%;
 }
 
 img {
@@ -85,4 +85,5 @@ img {
 .text{
     word-wrap: break-word;
     width: 25vw;
+    font-size: 1.5em;
 }

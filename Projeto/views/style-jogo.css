@@ -1,0 +1,92 @@
+body {
+    background-image: url("img/Office.jpg");
+    background-size: 100%;
+}
+
+img {
+    width: 25vw;
+    height: 40vh;
+}
+
+.boards {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 32px;
+}
+                                                        
+.board {
+    opacity: 90%;
+    min-width: 30vw;
+    background-color: #d0ced4;
+    border: 1px solid #FD951F11;
+    border-radius: 4px;
+    margin: 0 16px;
+}
+
+.board h3 {
+    color: #000000cc;
+    padding: 16px;
+    margin: 0;
+}
+                                                                
+.dropzone {
+    text-align: center;
+    justify-content: center;
+    padding: 40px;
+    min-width: 25vw;
+    min-height: 65vh;
+}
+                                                                
+.card {
+    position: absolute;
+    display: flex;
+    background-color: #babad3;
+    padding:16px;
+    box-shadow: 0 1px 1px 1px;
+    height: 60vh;
+    border-radius: 4px;
+}
+
+.highlight {
+    background-color: #ffb0b0;
+}
+                                                                
+.card,
+.dropzone {
+    transition: 0.5s;
+}
+
+.Movendo {
+    cursor: move;
+    opacity: 0.3;
+}
+.Sim { 
+    background-color: rgb(50, 255, 67)
+}
+.Nao{
+    background-color: rgb(255, 79, 79);
+}
+
+.dinheiro,
+.pontuacao {
+    text-align: right;
+    justify-content: right;
+    margin-top: 3px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#dinheiro, 
+#pontuação{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+
+.text{
+    word-wrap: break-word;
+    width: 25vw;
+    font-size: 1.5em;
+}
+
+

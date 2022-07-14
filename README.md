@@ -46,6 +46,18 @@ CSS - Utilizado para fazer a estilização do site
 
 (26/05/2022) - 0.4v: Feito a criação das cartas e preparação para os pontos e dinheiro no jogo&nbsp;
 
+(01/06/2022) - 0.5v: Finaliza a criação das mecânicas do jogo (contém bug) e parte para a estilização das outras páginas do jogo&nbsp;
+
+(03/06/2022) - 0.6v: Finaliza a estilização da página inicial e começa a preparação do tutorial do jogo&nbsp;
+
+(15/06/2022) - 0.7v: Finaliza o tutorial do jogo e começa a parte de debug do jogo&nbsp;
+
+(20/06/2022) - 0.8v: Debug
+
+(27/06/2022) - 0.9v: Debug
+
+(15/07/2022) - 1.0v: Jogo completo
+
 ## ✒️ Autores
 
 Desenvolvimento - Marcus Vinicius da Silva Romero - Frontend Developer

@@ -1,89 +1,61 @@
-body {
-    background-image: url("img/Office.jpg");
-    background-size: 100%;
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&display=swap');
+body{
+  margin: 0;
+  padding: 0;
+  background-image: url("img/image.jpg");
+  background-size: 100%;
+  position: absolute;
+}
+a{
+  text-decoration: none;
+  width: 106px;
+    height: 22px;
+    left: 668px;
+    top: 526px;
+  
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 22px;
+  
+    color: #FFFFFF;
+}
+#jogar{
+  width: 180px;
+  height: 50px;
+  background: rgba(132, 0, 0, 0.6);
+  border-radius: 15px;
+}
+#ajuda{
+    margin-top: 15px;
+    width: 180px;
+    height: 50px;
+    background: rgba(132, 0, 0, 0.6);
+    border-radius: 15px;
+}
+    
+.container {
+  width: 100vw;
+  height: 20vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+    
+.btn {
+  display: grid;
 }
 
-img {
-    width: 25vw;
-    height: 40vh;
-}
-
-.boards {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 32px;
-}
-                                                        
-.board {
-    min-width: 30vw;
-    background-color: #d0ced4;
-    border: 1px solid #FD951F11;
-    border-radius: 4px;
-    margin: 0 16px;
-}
-
-.board h3 {
-    color: #000000cc;
-    padding: 16px;
-    margin: 0;
-}
-                                                                
-.dropzone {
-    text-align: center;
-    justify-content: center;
-    padding: 40px;
-    min-width: 25vw;
-    min-height: 65vh;
-}
-                                                                
-.card {
-    position: absolute;
-    display: flex;
-    background-color: #babad3;
-    padding:16px;
-    box-shadow: 0 1px 1px 1px;
-    height: 60vh;
-    border-radius: 4px;
-}
-
-.highlight {
-    background-color: #ffb0b0;
-}
-                                                                
-.card,
-.dropzone {
-    transition: 0.5s;
-}
-
-.Movendo {
-    cursor: move;
-    opacity: 0.3;
-}
-.Sim { 
-    background-color: rgb(50, 255, 67)
-}
-.Nao{
-    background-color: rgb(255, 79, 79);
-}
-
-.dinheiro,
-.pontuacao {
-    text-align: right;
-    justify-content: right;
-    margin-top: 5px;
-    color: rgb(0, 0, 0);
+h3{
+  text-align: center;
+  font-family: 'Aclonica';
+    font-style: normal;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 48px;
+    line-height: 54px;
+    color: #840000;
 }
 
-#dinheiro, 
-#pontuação{
-    color: rgb(70, 70, 70);
-    font-size: 20px;
-}
-
-.text{
-    word-wrap: break-word;
-    width: 25vw;
-    font-size: 1.5em;
-}

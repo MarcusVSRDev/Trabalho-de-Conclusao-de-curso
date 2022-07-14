@@ -36,13 +36,15 @@ CSS - Utilizado para fazer a estilização do site
 
 ## 📌 Versão
 
-(10/04/2022) - 0.0.1v : Criação das tags basicas que serão utilizadas no HTML e começo da estilização.&nbsp;
+(10/04/2022) - 0.1v : Criação das tags basicas que serão utilizadas no HTML e começo da estilização.&nbsp;
 
-(15/04/2022) - 0.0.2v : Adicionando efeitos CSS e adicionando tags HTML&nbsp;
+(15/04/2022) - 0.2v : Adicionando efeitos CSS e adicionando tags HTML&nbsp;
 
-(23/04/2022) - 0.0.3v: Iniciando as funçoes drag and drop utilizando Javascript&nbsp;
+(23/04/2022) - 0.3v: Iniciando as funçoes drag and drop utilizando Javascript&nbsp;
 
-(24/05/2022) - 0.0.3.1v: Preparação para criação dinâmicas das cartas e criando funções para textos&nbsp;
+(24/05/2022) - 0.3.1v: Preparação para criação dinâmicas das cartas e criando funções para textos&nbsp;
+
+(26/05/2022) - 0.4v: Feito a criação das cartas e preparação para os pontos e dinheiro no jogo&nbsp;
 
 ## ✒️ Autores
 

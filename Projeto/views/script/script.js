@@ -26,30 +26,38 @@ img.src = 'img/peso1e2.png'
 content.appendChild(img)
 
 let texto = 'Fingindo criar uma perguntar para testar como fica a formatação do texto no card para depois editar no css.'
-let p = document.createElement('p')
-content.appendChild(p)
-p.innerHTML = texto
-*/
-
-let container = document.querySelector('#nao')
-let card = document.createElement('div')
-card.classList.add('card')
-card.draggable = true
-container.appendChild(card)
-
-let content = document.createElement('div')
-content.classList.add('content')
-card.appendChild(content)
-
-let img = document.createElement('img')
-img.src = 'img/peso1e2.png'
-content.appendChild(img)
-
-let texto = 'Fingindo criar uma perguntar para testar como fica a formatação do texto no card para depois editar no css.'
 let divtext = document.createElement('div')
 divtext.classList.add('text')
 content.appendChild(divtext)
 divtext.innerHTML = texto
+*/
+
+let cartas = 0;
+while (cartas <= 100) {
+    let container = document.querySelector('#inicio')
+    let card = document.createElement('div')
+    card.classList.add('card')
+    card.draggable = true
+    container.appendChild(card)
+
+    let content = document.createElement('div')
+    content.classList.add('content')
+    card.appendChild(content)
+
+    let img = document.createElement('img')
+    img.src = 'img/peso1e2.png'
+    content.appendChild(img)
+
+    let texto = 'Fingindo criar uma perguntar para testar como fica a formatação do texto no card para depois editar no css.'
+    let divtext = document.createElement('div')
+    divtext.classList.add('text')
+    content.appendChild(divtext)
+    divtext.innerHTML = texto
+
+    cartas++;
+}
+
+
 
 /**
 let semana = 1
@@ -74,7 +82,8 @@ cards.forEach(card => {
 
 function dragstart() {
     //log('CARD: Começou a se mover')
-    dropzones.forEach(dropzone => dropzone.classList.add('highlight'))
+    dropzonenao.classList.add('Nao')
+    dropzonesim.classList.add('Sim')
 
     this.classList.add('Movendo')
 }
@@ -85,19 +94,30 @@ function drag() {
 
 function dragend() {
     //log('CARD: Parou de se mover')
-    dropzones.forEach(dropzone => dropzone.classList.remove('highlight'))
+    dropzonenao.classList.remove('Nao')
+    dropzonesim.classList.remove('Sim')
 
     this.classList.remove('Movendo')
 }
 
 /** Dropzones */
 
-dropzones.forEach(dropzone => {
-    dropzone.addEventListener('dragenter', dragenter)
-    dropzone.addEventListener('dragover', dragover)
-    dropzone.addEventListener('dragleave', dragleave)
-    dropzone.addEventListener('drop', drop)
-})
+var dropzonesim = document.querySelector('#sim')
+var dropzonenao = document.querySelector('#nao')
+
+
+/** Habilita o movimento para o Dropzone "Sim" */
+dropzonesim.addEventListener('dragenter', dragenter)
+dropzonesim.addEventListener('dragover', dragover)
+dropzonesim.addEventListener('dragleave', dragleave)
+dropzonesim.addEventListener('drop', drop)
+
+/**Habilita o movimento para o Dropzone "Não" */
+dropzonenao.addEventListener('dragenter', dragenter)
+dropzonenao.addEventListener('dragover', dragover)
+dropzonenao.addEventListener('dragleave', dragleave)
+dropzonenao.addEventListener('drop', drop)
+
 
 function dragenter() {
     //log('DROPZONE: Entrou na zona')
@@ -107,7 +127,8 @@ function dragenter() {
 function dragover() {
     //log('DROPZONE: Está na zona')
 
-    this.classList.add('Over')
+    dropzonenao.classList.add('Nao')
+    dropzonesim.classList.add('Sim')
 
     const cardArrastado = document.querySelector('.Movendo')
 
@@ -116,10 +137,46 @@ function dragover() {
 
 function dragleave() {
     //log('DROPZONE: Saiu da zona')
-    this.classList.remove('Over')
+    dropzonenao.classList.remove('Nao')
+    dropzonesim.classList.remove('Sim')
 }
 
 function drop() {
     //log('DROPZONE: Dropou na zona')
-    this.classList.remove('Over')
+    dropzonenao.classList.remove('Nao')
+    dropzonesim.classList.remove('Sim')
 }
+
+let dropzoneinicio = document.querySelector('#inicio')
+
+
+/** Observa quando o DOM é modificado */
+
+/** 
+ var target = document.querySelector('[data-js="sim"]');
+ var observer = new MutationObserver(handleMutationObserver);
+ var config = { childList: true };
+ 
+ function handleMutationObserver(mutations) {
+     mutations.forEach(function (mutation) {
+         console.log(mutation.type);
+        });
+    }
+    
+    observer.observe(target, config);
+*/
+
+/**
+ * 
+ var target = document.querySelector('[data-js="inicio"]');
+ var observer = new MutationObserver(handleMutationObserver);
+ var config = { childList: true };
+ 
+ function handleMutationObserver(mutations) {
+     mutations.forEach(function (mutation) {
+         console.log(mutation.type);
+        });
+    }
+    observer.observe(target, config);
+    observer.disconnect
+    */

@@ -39,9 +39,9 @@ img {
 .card {
     position: absolute;
     display: flex;
-    background-color: 
-    #babad3;padding: 
-    16px;box-shadow: 0 1px 2px 2px;
+    background-color: #babad3;
+    padding:16px;
+    box-shadow: 0 1px 1px 1px;
     height: 60vh;
     border-radius: 4px;
 }
@@ -59,8 +59,11 @@ img {
     cursor: move;
     opacity: 0.3;
 }
-    .Over { 
-    background-color: rgb(141, 206, 146)
+.Sim { 
+    background-color: rgb(50, 255, 67)
+}
+.Nao{
+    background-color: rgb(255, 79, 79);
 }
 
 .dinheiro,

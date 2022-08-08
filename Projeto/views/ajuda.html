@@ -1,15 +1,71 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Ajuda</title>
+    <link rel="stylesheet" href="style-ajuda.css">
 </head>
 
 <body>
-
+    <h3>COMO JOGAR</h3>
+    <div class="container">
+        <ul>
+            <li>
+                <div class="texto">
+                    Dentro do jogo podemos notar 3 campos diferentes, onde será possível o usuário
+                    escolher dentre 2 campos "sim" e "não" para continuar o jogo. Já podemos observar as cartas que
+                    serão utilizadas no jogo, e cada campo será como uma escolha para a pergunta feita pela carta. No
+                    campo "sim", é feita a escolha afirmativa da pergunta, isto é, caso a pergunta seja um pedido para
+                    um novo material ou serviço, será creditado do dinheiro do jogo, observável no canto inferior
+                    direito da imagem, e dependendo do peso da carta, a pontuação do jogador pode aumentar
+                    drasticamente;
+                </div>
+                <img src="img/Jogo - 0.png" alt="">
+            </li>
+            <li>
+                <div class="texto">
+                    A escolha sendo feita para direita, como dito anteriormente, será creditado uma
+                    parte do seu dinheiro no jogo e, dependendo do peso da pergunta, será feito o aumento na
+                    pontuação do jogo. Nesse caso a pergunta é de peso 1 sendo creditado 1000 reais do seu
+                    dinheiro inicial, e não teve mudança significativa na pontuação do jogo;
+                </div>
+                <img src="img/Jogo - 1.png" alt="">
+            </li>
+            <li>
+                <div class="texto">
+                    Quando a escolha é feita para a esquerda, o jogador recebe um aumento no seu
+                    dinheiro no jogo, porém, a sua pontuação não é afetada, então caso o jogador resolva
+                    sempre escolher não, a sua pontuação continuará sendo 0, porém seu dinheiro irá aumentar.
+                    No caso em questão, pela carta ser de peso 1, o jogador teve um aumento de 500 reais
+                    no dinheiro do jogo, porém, não teve a pontuação aumentada;
+                </div>
+                <img src="img/Jogo - 2.png" alt="">
+            </li>
+            <li>
+                <div class="texto">
+                    Exemplificando um caso em que o jogador fez todas as decisões do jogo, as cartas
+                    acabam, serão geradas novas cartas até ocorrer a tela de gameover ou o jogador finalizar o jogo com
+                    a pontuação máxima (28 semanas). Para chegar nessa pontuação, será
+                    necessário mover aproximadamente 30 cartas, entre o "sim"e o "não", além de depender,
+                    claro dos pesos das cartas que vão de um a três, sendo a um mais leve, e a três a mais pesada;
+                </div>
+                <img src="img/Jogo - 3.png" alt="">
+            </li>
+            <li>
+                <div class="texto">
+                    Caso o jogador zere o dinheiro do jogo, será exibido a mensagem de gameover
+                    e o jogador voltará para o menu principal, assim perdendo toda a sua pontuação. Um
+                    equilíbrio será necessário durante as decisões para conseguir manter o dinheiro do jogo
+                    sempre alto, porém, a pontuação do jogo poderá ser baixa, o que levaria a um tempo
+                    maior para terminar o jogo.
+                </div>
+            </li>
+        </ul>
+        <button id="voltar"><a href="index.html">VOLTAR</a></button>
+    </div>
 </body>
 
 </html>

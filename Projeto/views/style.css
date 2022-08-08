@@ -1,41 +1,43 @@
 @import url('https://fonts.googleapis.com/css2?family=Aclonica&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&display=swap');
-body{
+
+body {
   margin: 0;
   padding: 0;
   background-image: url("img/image.jpg");
   background-size: 100%;
   position: absolute;
 }
-a{
+
+a {
   text-decoration: none;
   width: 106px;
-    height: 22px;
-    left: 668px;
-    top: 526px;
-  
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 19px;
-    line-height: 22px;
-  
-    color: #FFFFFF;
+  height: 22px;
+  left: 668px;
+  top: 526px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 22px;
+  color: #FFFFFF;
 }
-#jogar{
+
+#jogar {
   width: 180px;
   height: 50px;
   background: rgba(132, 0, 0, 0.6);
   border-radius: 15px;
 }
-#ajuda{
-    margin-top: 15px;
-    width: 180px;
-    height: 50px;
-    background: rgba(132, 0, 0, 0.6);
-    border-radius: 15px;
+
+#ajuda {
+  margin-top: 15px;
+  width: 180px;
+  height: 50px;
+  background: rgba(132, 0, 0, 0.6);
+  border-radius: 15px;
 }
-    
+
 .container {
   width: 100vw;
   height: 20vh;
@@ -44,18 +46,17 @@ a{
   justify-content: center;
   align-items: center;
 }
-    
+
 .btn {
   display: grid;
 }
 
-h3{
+h3 {
   text-align: center;
   font-family: 'Aclonica';
-    font-style: normal;
-    font-weight: bold;
-    font-size: 48px;
-    line-height: 54px;
-    color: #840000;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 54px;
+  color: #840000;
 }
-

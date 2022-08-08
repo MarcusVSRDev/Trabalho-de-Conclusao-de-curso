@@ -242,6 +242,7 @@ var observersim = new MutationObserver(mutations => {
                 }
                 if (money == 0) {
                     window.alert('Gameover')
+
                 }
                 h++;
             })

@@ -41,10 +41,18 @@ function log(mensagem) {
 */
 
 let cartas = 0;
-while (cartas < 3) {
-    let texto = ['O aumento na qualidade de imagem das camerâs para uso no CFTV está tirando a qualidade da internet do local. O que acha de um link secundario?',
+while (cartas < 20) {
+    let texto = [
+        'O aumento na qualidade de imagem das camerâs para uso no CFTV está tirando a qualidade da internet do local. O que acha de um link secundario?',
         'Eu notei que a qualidade dos nossos equipamentos já está um pouco ultrapassada, poderiamos renovar os nossos equipamentos por novos mais atualizados, o que acha?',
-        'Com a chegada de novos funcionarios, será necessários novos equipamentos... Compramos novos equipamentos ou revezamos o que já temos?']
+        'Com a chegada de novos funcionarios, será necessários novos equipamentos... Compramos novos equipamentos ou revezamos o que já temos?',
+        'Gerente, um projeto envolvendo cabeamento estruturado foi requisitada para um empresa externa, porém, eles não parecem ser tão confiáveis... O que acha de aceitar o projeto?',
+        'O aumento na demanda do nosso setor recentemenete acabou ocasionando em críticas para a gente... Uma das soluções proposta foi a contratação de novos estágiarios. O que acha?',
+        'Os serviços de nuvem externos estão começando a aumentar o preço e isso ocasiona no aumento de dispesas a longo prazo. Após conversas, estavam pesando no desenvolvimento do nosso próprio servidor...Acha que isso seria viável, levando em conta o grande orçamento ?',
+        'O grande aumento no mercado de TI durante a Pandemia de COVID-19, ocasionou na diminuição gerado pela empresa. Como parte do setor de TI ficou no homeoffice, os acionistas querem que vocês comecem a aceitar mais projetos de uma vez.',
+        'A falta de profissionais qualificados no mercado tem aumentado, está sendo dificil conseguir profissionais que se enquadrão nos requisitos da empresa. Uma das soluções propostas foi a de contratar jovens interessados no mercado de TI, e proporciona - los cursos relacionados as tecnologias utilizadas pela empresa.'
+    ]
+
 
     /** Sorteia um número aleatorio de acordo com o tamanho do array texto*/
     i = Math.floor(Math.random() * texto.length)
@@ -67,19 +75,19 @@ while (cartas < 3) {
     content.appendChild(divtext)
 
     /** Peso 3 */
-    if (i >= 21 && i <= 30) {
+    if (i >= 5 && i <= 7) {
         img.src = "img/peso3.png"
         divtext.innerHTML = texto[i]
     }
 
     /** Peso 2 */
-    else if (i >= 10 && i <= 20) {
+    else if (i >= 3 && i <= 4) {
         img.src = "img/peso2.png"
         divtext.innerHTML = texto[i]
     }
 
     /** Peso 1*/
-    else if (i >= 0 && i <= 9) {
+    else if (i >= 0 && i <= 2) {
         img.src = "img/peso1.png"
         divtext.innerHTML = texto[i]
     }
@@ -222,16 +230,16 @@ var observersim = new MutationObserver(mutations => {
                 console.log("A carta foi para o sim " + j);
                 pont.innerHTML = semana + ' Semana(s)'
                 console.log(y[h])
-                if (y[h] >= 0 && y[h] <= 9) {
+                if (y[h] >= 0 && y[h] <= 2) {
                     money -= 1000;
                     din.innerHTML = 'R$ ' + money
                 }
-                if (y[h] >= 10 && y[h] <= 20) {
+                if (y[h] >= 3 && y[h] <= 4) {
                     money -= 3000
                     din.innerHTML = 'R$ ' + money
                     semana++;
                 }
-                if (y[h] >= 21 && y[h] <= 30) {
+                if (y[h] >= 5 && y[h] <= 7) {
                     money -= 10000
                     din.innerHTML = 'R$ ' + money
                     semana++;
@@ -263,15 +271,15 @@ var observernao = new MutationObserver(mutations => {
                 console.log("A carta foi para o não " + j)
                 pont.innerHTML = semana + ' Semana(s)'
                 console.log(y[h])
-                if (y[h] >= 0 && y[h] <= 9) {
+                if (y[h] >= 0 && y[h] <= 2) {
                     money += 500;
                     din.innerHTML = 'R$ ' + money
                 }
-                if (y[h] >= 10 && y[h] <= 20) {
+                if (y[h] >= 3 && y[h] <= 4) {
                     money += 1000
                     din.innerHTML = 'R$ ' + money
                 }
-                if (y[h] >= 21 && y[h] <= 30) {
+                if (y[h] >= 5 && y[h] <= 7) {
                     money += 4000
                     din.innerHTML = 'R$ ' + money
                 }
